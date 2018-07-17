@@ -10,6 +10,8 @@ tempConverter takes in a string with a number and fahrenheit or celsius
 ex `30 celsius`;
 and calls either convertF2C or convertC2F;
 */
+
+//rest of code was not updated. just takes in simple number type arguments
 const convertF2C = temp => {
   return (temp - 32) * (5 / 9); //+ `Celcius`;
 };
